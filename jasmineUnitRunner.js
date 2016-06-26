@@ -1,6 +1,7 @@
 /* eslint-disable */
 'use strict';
-require('babel-register');
+const babelOptions = JSON.parse(require('fs').readFileSync('./.babelrc'));
+require('babel-register')(babelOptions);
 require('babel-polyfill');
 
 var Jasmine = require('jasmine');
