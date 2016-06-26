@@ -1,0 +1,50 @@
+{
+  "name": "a-node-test-kit",
+  "version": "1.0.0",
+  "description": "A quick test kit for node",
+  "homepage": "https://github.com/DanielZlotin/a-node-test-kit",
+  "readme": "https://github.com/DanielZlotin/a-node-test-kit#readme",
+  "author": "Daniel Zlotin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielZlotin/a-node-test-kit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielZlotin/a-node-test-kit.git"
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "scripts-inner/lint.sh",
+    "build": "scripts-inner/build.sh",
+    "pretest": "npm run lint",
+    "test": "scripts-inner/test.sh",
+    "release": ":"
+  },
+  "dependencies": {
+    "lodash": "^4.12.0",
+    "app-root-path": "^1.0.0",
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.8.0",
+    "babel-polyfill": "^6.8.0",
+    "babel-preset-es2015": "^6.8.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.8.0",
+    "jasmine": "^2.4.1",
+    "jasmine-reporters": "^2.1.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "jasmine-expect": "^2.0.2",
+    "proxyquire": "1.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.1",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-react": "^4.2.3",
+    "eslint-plugin-react-native": "^1.0.0",
+    "babel-eslint": "^6.0.4"
+  }
+}

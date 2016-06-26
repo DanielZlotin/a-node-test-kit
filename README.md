@@ -1,2 +1,1 @@
-# node-test-kit
-Quick test kit for node
+# A quick test kit for node

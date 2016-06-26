@@ -1,4 +1,11 @@
-lib/
+node_modules/
+src/
+test/
+scripts-inner/
+
+#################
+# from .gitignore:
+################
 
 ############
 # Node
