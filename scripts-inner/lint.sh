@@ -1,3 +1,3 @@
 #!/bin/sh -e
 
-eslint eslint src test
+eslint src test
